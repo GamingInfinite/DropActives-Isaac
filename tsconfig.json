@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+  "include": ["./src/**/*.ts"],
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "moduleResolution": "Node",
+    "types": ["isaac-typescript-definitions"],
+    "strict": true,
+    "isolatedModules": false,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "checkJs": false,
+  },
+  "tstl": {
+    "luaTarget": "5.4",
+    "luaBundle": "./mod/main.lua",
+    "luaBundleEntry": "./src/bundleEntry.ts",
+    "noHeader": true,
+    "noImplicitGlobalVariables": true
+  }
+}

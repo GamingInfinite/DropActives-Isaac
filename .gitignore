@@ -1,0 +1,10 @@
+*
+!*.json
+!.gitignore
+!ReadME.md
+
+!/src/
+!/src/*
+
+!/mod
+!/mod/metadata.xml
