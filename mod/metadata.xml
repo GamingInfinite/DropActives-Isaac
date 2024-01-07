@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-model href="https://wofsauge.github.io/isaac-xml-validator/xsd/metadata.xsd" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <name>isaac-template</name>
-  <directory>isaac-template</directory>
-  <description>WIP</description>
-  <version>1.0</version>
-  <visibility />
+    <name>Drop Actives [RGON]</name>
+    <directory>drop_actives</directory>
+    <id>3133358811</id>
+    <description>This mod allows you drop actives.  I don't really know what else you want.  Oh it works with multiplayer and requires repentagon.</description>
+    <version>1.1</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Active Items"/>
 </metadata>
